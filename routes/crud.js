@@ -17,9 +17,6 @@ const Storage = multer.diskStorage({
 
 const uploadFile = multer({ storage: Storage });
 
-/** API to save the message data in the database*/
-router.post("/send-message", crudController.sendMessage);
-
 /** API to upload the csv file and save the data */
 router.post("/upload", uploadFile.single("file"), crudController.uploadCsv);
 
@@ -28,5 +25,8 @@ router.get("/search-policy", crudController.searchPolicy);
 
 /** API to provide aggregated policy by each user */
 router.get("/aggregated-policies", crudController.aggregatePolicies);
+
+/** API to save the message data in the database*/
+router.post("/send-message", crudController.sendMessage);
 
 module.exports = router;
