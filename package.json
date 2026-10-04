@@ -1,0 +1,22 @@
+{
+  "name": "policyassignment",
+  "version": "1.0.0",
+  "description": "To save the details of the user policies",
+  "license": "ISC",
+  "author": "Akash Agrawal",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^2.3.0",
+    "dotenv": "^18.0.5",
+    "express": "^5.2.1",
+    "fs": "^0.0.1-security",
+    "mongoose": "^9.10.4",
+    "multer": "^2.4.0",
+    "underscore": "^1.13.8"
+  }
+}
