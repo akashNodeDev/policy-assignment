@@ -12,11 +12,13 @@
   },
   "dependencies": {
     "body-parser": "^2.3.0",
+    "csv-parser": "^3.2.1",
     "dotenv": "^18.0.5",
     "express": "^5.2.1",
     "fs": "^0.0.1-security",
     "mongoose": "^9.10.4",
     "multer": "^2.4.0",
+    "systeminformation": "^5.33.15",
     "underscore": "^1.13.8"
   }
 }

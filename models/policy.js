@@ -24,7 +24,7 @@ const PolicySchema = mongoose.Schema(
     agent_id: {
       type: mongoose.Schema.Types.ObjectId,
       default: null,
-      ref: "agents",
+      ref: "Agent",
     },
   },
   { timestamps: true, versionKey: false },

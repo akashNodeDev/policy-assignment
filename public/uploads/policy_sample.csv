@@ -1,0 +1,8 @@
+1687362863557_data-sheet
+agent,code,firstname,company_name,category_name,policy_no,"policy_start_date
+",policy_end_date,"premium_amount
+","account_name
+",dob,Address,"email
+",phone,state,zipcode,gender,city,userType
+Alex,agent101,Adam,LIC,"Term Life Insurance",11078969988,4/9/26,04/09/30,5000,Adam,9/7/97,"H.NO 1,L. No1",aj@yopmail.com,9128252627,Bihar,991234,Male,Nabinagar,Personal
+Alex,agent102,Fillip,LIC,"ULIP",11078969989,4/9/26,04/09/30,3500,Fillip,09/04/98,"H.NO 1,L. No1",ag@yopmail.com,9128252629,Jharkhand,991234,Male,Jamshedpur,Commercial
